@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos minimalistas para la barra de navegación */
+.navbar {
+    background-color: #89ABB4; /* Color azul grisáceo */
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+.navbar-brand {
+    color: #FFFFFF; /* Blanco para el texto */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.8em;
+    padding-left: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.navbar-brand:hover {
+    color: #DAE1E7; /* Un tono más claro de azul grisáceo para el hover */
+}
+
+h2, p {
+    font-style: italic; /* Aplicar cursiva */
+    text-align: center; /* Centrar el texto */
+}
+
+#lista-usuarios {
+    padding: 15px;
+    margin-bottom: 15px; /
+}
+
+.footer-container {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Asegúrate de que el footer sea responsivo */
+@media (max-width: 768px) {
+    .footer-container {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-container {
+        padding: 2px;
+    }
+}
